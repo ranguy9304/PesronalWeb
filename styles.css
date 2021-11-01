@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    margin: 0px;
+}
+#Home{
+    
+    background-image: url(/images/wallpapertip_pixel-art-wallpaper_95437.png) ;
+    background-size: cover;
+    padding-bottom: 500px;
+    
+    margin: 0px;
+}
+
+#birda{
+    margin-left: 870px;
+    margin-top:100px;
+}
+#birdb{
+    margin-left:855px;
+    margin-top: 25px;
+}
+#birdc{
+    margin-left:847px;
+    margin-top: 20px;
+
+}
+#birdd{
+    margin-left:890px;
+    margin-top:-30px;
+
+}
+.body{
+    width: 4px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: -8px;
+
+   
+}
+.wingsl{
+    width: 4px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 4px;
+    margin-bottom: -4px;
+    animation: fly 2s infinite;
+    
+   
+}
+@keyframes fly{
+    50%{transform:translateY(8px);
+    }
+}
+.wingsr{
+    width: 4px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    margin-left: -4px;
+    animation: fly 2s infinite;
+}
+
+#Home ul{
+    margin: 0px;
+    padding-top: 10px;
+    
+    list-style: none;
+    
+}
+#Home li{
+
+    display: inline;
+    text-decoration: none;
+    /* padding: 10px 15px;
+    margin: 0px 20px;
+    background-color: tan;
+    
+    border-radius: 10px;
+    margin-bottom:10px; */
+    /* border: solid #000
+    border-width: 0 1px; */
+    /* border-style:solid;
+    border: tan;
+    border-radius: 20px; */
+    
+}
+#Home li :hover{
+    
+ 
+    background-color:#8C4A6F;
+    transition: 500ms;
+    color: #F2B29B;
+
+}
+#Home a{
+    /* background-color: sandybrown; */
+    text-decoration: none;
+    color:#8C4A6F;
+    font-size: 30px;
+    font-family:sans-serif;
+    padding: 5px 15px;
+    margin: 5px 20px;
+    background-color:#F2B29B;
+    
+    border-radius: 10px;
+    margin-bottom:10px;
+    /* padding: 0px 10px; */
+    
+    
+    
+
+}
