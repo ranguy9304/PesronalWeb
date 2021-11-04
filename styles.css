@@ -8,7 +8,7 @@
 }
 #Home{
     
-    background-image: url(/images/wallpapertip_pixel-art-wallpaper_95437.png) ;
+    background-image: url(images/wallpapertip_pixel-art-wallpaper_95437.png) ;
     background-size: cover;
     padding-bottom: 500px;
     
@@ -123,7 +123,10 @@
     
 
 }
+<<<<<<< HEAD
 #aboutMe{
     background-color: #000000;
     height:1000px ;
 }
+=======
+>>>>>>> 978b23a3c0a4f7d9c07a3d2fd71bbfc4360d3a30
