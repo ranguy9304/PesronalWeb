@@ -153,8 +153,8 @@ html{
 }
 
 #aboutMe{
-    
-    background-color: #000000;
+    background: rgb(34,26,43);
+    background: linear-gradient(157deg, rgb(26, 20, 32) 0%, rgb(54, 45, 63) 90%);;
     padding-bottom: 15px;
 }
 
