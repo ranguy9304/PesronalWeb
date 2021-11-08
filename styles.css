@@ -8,7 +8,7 @@
 }
 #Home{
     
-    background-image: url(images/wallpapertip_pixel-art-wallpaper_95437.png) ;
+    background-image: url(images/wallpapertip_pixel-art-wallpaper_9547.png) ;
     background-size: cover;
     padding-bottom: 500px;
     
@@ -72,18 +72,24 @@
     animation: fly 2s infinite;
 }
 
-#Home ul{
+#aboutMe ul{
+    padding-left: 300px;
+    
     position: relative;
     margin: 0px;
-    padding-top: 10px;
+    padding-top: 30px;
+    
     
     list-style: none;
     
 }
-#Home li{
+#aboutMe li{
 
     display: inline;
     text-decoration: none;
+    position: relative;
+    padding-bottom: 10px;
+    
     /* padding: 10px 15px;
     margin: 0px 20px;
     background-color: tan;
@@ -97,25 +103,43 @@
     border-radius: 20px; */
     
 }
-#Home li :hover{
-    
- 
-    background-color:#8C4A6F;
-    transition: 500ms;
-    color: #F2B29B;
+#aboutMe li::after{
+    content:'';
+    position: absolute;
+    width: 50%;
+    height: 0.175rem;
+    left :25%;
+    bottom: 0;
+    background:#F2B29B ;
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
 
 }
-#Home a{
+#aboutMe li:hover::after{
+    transform: scale(1,1);
+}
+
+#aboutMe li :hover{
+    border-radius: 100px;
+    border-color: antiquewhite;
+    border-width: 50px;
+    transition: 500ms;
+    color: #F2B29B;
+   
+
+}
+#aboutMe a{
     /* background-color: sandybrown; */
     text-decoration: none;
-    color:#8C4A6F;
+    color:#F2B29B;
     font-size: 30px;
     font-family:sans-serif;
     padding: 5px 15px;
     margin: 5px 20px;
-    background-color:#F2B29B;
+
     
-    border-radius: 10px;
+    
+    
     margin-bottom:10px;
     /* padding: 0px 10px; */
     
@@ -126,6 +150,5 @@
 
 #aboutMe{
     background-color: #000000;
-    height:1000px ;
 }
 
